@@ -8,9 +8,9 @@
         <div class="col">
             <div class="row">
                 <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.index')}}">Home</a></div>
-                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.index')}}">Portifólio</a></div>
-                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.index')}}">Sobre</a></div>
-                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.index')}}">Contato</a></div>
+                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.portifolio')}}">Portifólio</a></div>
+                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.about')}}">Sobre</a></div>
+                <div class="col-3 transition ease-in-out delay-75 text-center hover:text-red-600 hover:scale-150 duration-300"><a class=" fs-5" href="{{route('board.contact')}}">Contato</a></div>
             </div>
         </div>
     </div>
