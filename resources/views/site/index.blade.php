@@ -21,9 +21,24 @@
             <a class="shadow-lg" href="https://github.com/JulianoGSantos" target="_blank" rel="external"><img src="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/GitHub-512.png" width="48px" alt="github"></a>
         </div>
     </div>
-    <div class="content-center size-full mt-20">
+    <div class="size-full mt-20">
+        <div class="msg fs-3">
+            Hello world, bem vindo ao meu portifólio.
+        </div>
         <img src="img/portifolio.png" width="100%" alt="setup">
     </div>
 </main>
+<style>
+    .msg{
+        display: block;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 700;
 
+        border-right: 16px solid black;
+        white-space: nowrap;
+
+        overflow: hidden;
+    }
+</style>
 </html>
