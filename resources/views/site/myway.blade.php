@@ -10,8 +10,7 @@
 <body class="bg-white">
     @section('top')
     @endsection
-    <div class="grid justify-center mt-2">
-        <h1 class="text-center fs-5">Skills</h1>
+    <div class="grid justify-center mt-2 mb-2">
         <div class="grid grid-cols-6 gap-10">
             <img  class="col-span-1" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css" width="48px">
             <img  class="col-span-1" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png" alt="css" width="48px">
@@ -22,7 +21,7 @@
         </div>
     </div>
     <div class="container-sm clearfix">
-        <img src="img/profile_edit.png" class="col-md-4 float-md-end mb-3 ms-md-3" alt="foto profile_edit">
+        <img src="img/profile_edit.png" class="col-md-4 float-md-end mb-3 ms-md-3 rounded-xl shadow-lg shadow-black" alt="foto profile_edit">
         <p class="fs-5">
             Meu nome é Juliano Santos, tenho 38 anos e nasci no interior de São Paulo. Tenho esposa e um filho. Em 2012 me formei pela faculdade de tecnologia do estado de São Paulo a FATEC, no curso de Informática para Gestão de Negócios, área pela qual sempre fui apaixonado.
         </p>
@@ -33,7 +32,7 @@
             A programação me abriu portas, inclusive em outras área, trabalhei em algumas empresas todas voltadas para o segmento comercial, ganhei casca.
         </p>
         <p class="fs-5">
-            Em 2021 em plena pandemia me dedico a trasformar em soluções problemas de pessoas e empresas que me procuram. Hoje mais experiente e com grande bagagem em vários setores terei prazer em lhe ajudar.
+            Em 2021 em plena pandemia me dediquei a trasformar em soluções problemas de pessoas e empresas que me procuram. Hoje mais experiente e com grande bagagem em vários setores terei prazer em lhe ajudar.
         </p>
     </div>
 </body>
