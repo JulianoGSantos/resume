@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    @extends('portifolio.system.client.layouts.home')
+    @extends('site.portifolio.system.client.layouts.home')
 </head>
 <body>
     <header>
         <div class=" grid justify-center w-full h-32 content bg-blue-400 p-12">
-            <div class=" min-[200px]:text-lg min-[200px]:text-center sm:text-xs md:text-4xl lg:text-4xl">CONTROLE DE DADOS PACIENTES</div>
+            <div class="min-[200px]:text-center sm:text-xs md:text-4xl lg:text-4xl">CONTROLE DE DADOS PACIENTES</div>
         </div>
     </header>
     <main>
@@ -26,7 +26,7 @@
     <footer>
             @csrf
             <div class=" grid mt-4 justify-items-center w-full h-28 bg-black">
-                <a href=" {{ route('do.view') }}" class=" w-16 h-6 mt-10 bg-red-400 rounded-sm text-center text-white">Sair</a>
+                <a href=" {{ route('board.portifolio') }}" class=" w-16 h-6 mt-10 bg-red-400 rounded-sm text-center text-white">Sair</a>
             </div>
     </footer>
 </body>

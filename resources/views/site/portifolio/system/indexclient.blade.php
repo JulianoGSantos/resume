@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro de clientes</title>
-    @extends('portifolio.system.client.layouts.app')
+    @extends('site.portifolio.system.client.layouts.app')
 </head>
 
 @section('content')

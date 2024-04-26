@@ -11,6 +11,10 @@ class SheetController extends Controller
     }
     
     public function indexclient(){
-        return view('site.projects.indexclient');
+        return view('site.portifolio.system.indexclient');
+    }
+
+    public function searchclient(){
+        return view('site.portifolio.system.searchclient');
     }
 }
